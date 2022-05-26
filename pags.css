@@ -1,0 +1,25 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(134, 10, 10);
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.main-box{
+    /* width: 100%;
+    height: 50%; */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    width: 30rem;
+    height: 40rem;
+    border: 2px solid #000;
+    box-shadow: 3px 2px 2em rgba(0, 0, 0, 0.644) ;
+    padding: 0.5em;
+}
